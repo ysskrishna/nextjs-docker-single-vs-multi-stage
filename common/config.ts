@@ -1,0 +1,60 @@
+const config = {
+  baseUrl: process.env.NEXT_PUBLIC_BASE_URL,
+  author: {
+    name: "Y. Siva Sai Krishna",
+    image: "https://github.com/ysskrishna.png",
+    bio: "I'm a dynamic Full Stack Developer, Founding Engineer, and an IITM graduate from Bengaluru, India, who loves building cutting-edge web and mobile applications.",
+    email: "sivasaikrishnassk@gmail.com",
+    url: "https://ysskrishna.vercel.app",
+    linkedin: "https://www.linkedin.com/in/ysskrishna/",
+    github: "https://github.com/ysskrishna",
+    productHunt: "https://www.producthunt.com/@ysskrishna",
+    youtube: "https://www.youtube.com/@ysskrishna",
+  },
+  productName: "NextJS Docker",
+  techStack: {
+    languages: [
+      { name: "Python", logo: "python" },
+      { name: "JavaScript", logo: "javascript" },
+      { name: "SQL", logo: "postgresql" },
+      { name: "TypeScript", logo: "typescript" },
+      { name: "HTML", logo: "html5" },
+      { name: "CSS", logo: "css" },
+      { name: "Bash", logo: "gnubash" },
+    ],
+    technologies: [
+      { name: "FastAPI", logo: "fastapi" },
+      { name: "Express", logo: "express" },
+      { name: "Flask", logo: "flask" },
+      { name: "React", logo: "react" },
+      { name: "Next.js", logo: "nextdotjs" },
+      { name: "React Native", logo: "react" },
+      { name: "GraphQL", logo: "graphql" },
+      { name: "Tailwind CSS", logo: "tailwindcss" },
+      { name: "Node.js", logo: "nodedotjs" },
+      { name: "Bootstrap", logo: "bootstrap" },
+      { name: "Notion", logo: "notion" },
+      { name: "RabbitMQ", logo: "rabbitmq" },
+    ],
+    databases: [
+      { name: "PostgreSQL", logo: "postgresql" },
+      { name: "SQLite", logo: "sqlite" },
+      { name: "MongoDB", logo: "mongodb" },
+      { name: "Redis", logo: "redis" },
+      { name: "Elasticsearch", logo: "elasticsearch" },
+      { name: "Firebase", logo: "firebase" },
+    ],
+    cloudDevOps: [
+      { name: "AWS", logo: "amazonwebservices" },
+      { name: "Docker", logo: "docker" },
+      { name: "GitHub Actions", logo: "githubactions" },
+      { name: "Vercel", logo: "vercel" },
+      { name: "Netlify", logo: "netlify" },
+      { name: "Heroku", logo: "heroku" },
+      { name: "Git", logo: "git" },
+      { name: "GitHub", logo: "github" },
+    ],
+  }
+};
+
+export default config;
