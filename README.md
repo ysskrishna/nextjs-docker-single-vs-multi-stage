@@ -31,16 +31,26 @@ The multi-stage build uses three distinct stages to optimize the final image:
 To run both builds and compare their sizes:
 
 ```bash
-# Build both images
-docker-compose build
-
-# Run the containers
-docker-compose up
+# Build & Run the containers
+docker-compose up --build
 ```
 
 The applications will be available at:
 - Single-stage build: http://localhost:3000
 - Multi-stage build: http://localhost:3001
+
+## Environment Configuration
+
+Before running the application, you need to set up your environment variables:
+
+1. Copy the `.env.sample` file to create your `.env` file:
+```bash
+cp .env.sample .env
+```
+
+2. Update the values in the `.env` file with your specific configuration.
+
+Note: Make sure to never commit your `.env` file to version control. The `.env.sample` file serves as a template showing which environment variables are required.
 
 ## Key Differences
 
@@ -84,3 +94,10 @@ The multi-stage build results in an image that's approximately 84% smaller than 
 - Build artifacts
 - Node modules (only production dependencies)
 
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This template is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. 

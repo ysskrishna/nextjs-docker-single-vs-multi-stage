@@ -1,15 +1,28 @@
 import config from "@/common/config";
 import { SiteConfig } from "@/types/siteConfig";
 
-console.log("config", config)
 
 const baseSiteConfig = {
   name: config?.productName,
   title: config?.productName,
-  description: "Nextjs Docker",
+  description: "A modern Next.js application demonstrating Docker single-stage vs multi-stage builds, featuring advanced UI components and optimized performance.",
   url: config?.baseUrl,
   metadataBase: new URL(config?.baseUrl),
-  keywords: [],
+  keywords: [
+    "Next.js",
+    "Docker",
+    "Docker Multi-Stage",
+    "Docker Single-Stage",
+    "Containerization",
+    "DevOps",
+    "React",
+    "TypeScript",
+    "Web Development",
+    "Frontend",
+    "Performance Optimization",
+    "Docker Build Optimization",
+    "Docker Best Practices"
+  ],
   authors: [
     {
       name: config?.author?.name,

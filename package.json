@@ -1,6 +1,31 @@
 {
-  "name": "nextjs-docker",
+  "name": "nextjs-docker-single-vs-multi-stage",
   "version": "1.0.0",
+  "description": "A modern Next.js application demonstrating Docker single-stage vs multi-stage builds, featuring advanced UI components and optimized performance.",
+  "keywords": [
+    "nextjs",
+    "docker",
+    "docker-multi-stage",
+    "docker-single-stage",
+    "containerization",
+    "devops",
+    "react",
+    "typescript",
+    "web-development",
+    "frontend",
+    "performance-optimization",
+    "docker-build-optimization",
+    "docker-best-practices"
+  ],
+  "homepage": "https://github.com/ysskrishna/nextjs-docker-single-vs-multi-stage",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ysskrishna/nextjs-docker-single-vs-multi-stage.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ysskrishna/nextjs-docker-single-vs-multi-stage/issues"
+  },
+  "license": "MIT",
   "author": {
     "name": "ysskrishna",
     "url": "https://github.com/ysskrishna"
