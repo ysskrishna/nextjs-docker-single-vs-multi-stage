@@ -1,4 +1,4 @@
-# frontend/Dockerfile
+# Single-stage Dockerfile
 FROM node:18-alpine
 
 WORKDIR /app
