@@ -1,5 +1,7 @@
 # Next.js Docker Build Strategies Comparison
 
+[![License: MIT](https://img.shields.io/github/license/ysskrishna/nextjs-docker-single-vs-multi-stage)](https://github.com/ysskrishna/nextjs-docker-single-vs-multi-stage/blob/main/LICENSE) [![Author site](https://img.shields.io/badge/author-ysskrishna.space-informational)](https://ysskrishna.space)
+
 This repository demonstrates the difference between single-stage and multi-stage Docker builds for a Next.js application. The comparison focuses on build size, security, and best practices.
 
 ## Landing Page Preview
@@ -98,6 +100,32 @@ The multi-stage build results in an image that's approximately 84% smaller than 
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
+## Built and maintained by
+
+Next.js Docker Build Strategies Comparison is built and maintained by:
+
+| | Name | GitHub | Role |
+|---|------|--------|------|
+| <img src="https://github.com/ysskrishna.png?size=120" width="60" height="60" alt="Y. Siva Sai Krishna"> | **Y. Siva Sai Krishna** | [@ysskrishna](https://github.com/ysskrishna) | Creator |
+
+## Support
+
+If you find this project helpful:
+
+- ⭐ Star the repository
+- 🐛 [Report issues](https://github.com/ysskrishna/nextjs-docker-single-vs-multi-stage/issues)
+- 🔀 Submit pull requests
+- 💝 [Sponsor on GitHub](https://github.com/sponsors/ysskrishna)
+
 ## License
 
-This template is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. 
+MIT © [Y. Siva Sai Krishna](https://github.com/ysskrishna) — see [LICENSE](LICENSE) for details.
+
+---
+
+<p align="left">
+  <a href="https://github.com/ysskrishna">Author's GitHub</a> •
+  <a href="https://linkedin.com/in/ysskrishna">Author's LinkedIn</a> •
+  <a href="https://ysskrishna.space">Author's site</a> •
+  <a href="https://github.com/ysskrishna/nextjs-docker-single-vs-multi-stage/issues">Report Issues</a>
+</p>
